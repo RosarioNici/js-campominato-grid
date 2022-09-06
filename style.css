@@ -1,0 +1,43 @@
+button {
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(160, 158, 158, 0.658);
+}
+
+body {
+    height: 100vh;
+}
+
+header,
+footer {
+    height: 10%;
+}
+
+section {
+    height: 100%;
+}
+
+main {
+    background-color: aquamarine;
+}
+
+.box {
+    height: 100px;
+    border: 1px solid black;
+}
+
+.number {
+    height: 100%;
+    vertical-align: middle;
+}
+
+.even {
+    background-color: red;
+
+}
+
+.odd {
+    background-color: blue;
+}
