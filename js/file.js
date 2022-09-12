@@ -32,7 +32,7 @@ function generateRandomNumber(min, max) {
 }
 for (i = 0; i < 84; i++) {
     number.push(generateRandomNumber(1, 84))
-
+    // il controllo lo facci qui
 }
 
 
@@ -40,9 +40,10 @@ for (i = 0; i < 84; i++) {
 button.addEventListener('click',
 
     function gridNumber() {
-
+        const boxDiv = document.getElementById('pratofiorito')
+        boxDiv.innerHTML = ''
         for (let i = 0; i < number.length; i++) {
-            const boxDiv = document.getElementById('pratofiorito')
+
             if (number[i] % 2 === 0) {
                 boxDiv.innerHTML += (`<div id="box-color" class="box even col-1"><span class="number align-items-center text-center">${number[i]}</span></div>`)
             } else {
@@ -54,6 +55,9 @@ button.addEventListener('click',
 
 
 )
+
+
+// creare l'array con i numeri gia generati se non sono generati li inserisce se no no
 
 
 
